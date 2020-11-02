@@ -1,0 +1,53 @@
+@import "../../styles/variables.scss";
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $black;
+
+  &__currentCount {
+    width: 600px;
+    height: 600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    &__count {
+      width: 580px;
+      height: 580px;
+      background: $white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      &:before {
+        width: 600px;
+        height: 600px;
+        content: " ";
+        position: absolute;
+        border: 5px solid $white;
+        border-radius: 50%;
+      }
+
+      &:after {
+        width: 625px;
+        height: 625px;
+        content: " ";
+        position: absolute;
+        border: 5px solid $white;
+        border-radius: 50%;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 450px;
+      }
+    }
+  }
+}
