@@ -5,7 +5,7 @@ import Countdown from './components/countdown/Countdown';
 const App = () => {
   return (
     <div className="main">
-      <Countdown />
+      
     </div>
   )
 }
