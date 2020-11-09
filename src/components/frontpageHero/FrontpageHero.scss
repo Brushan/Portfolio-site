@@ -1,0 +1,85 @@
+@import "../../styles/variables.scss";
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: $black;
+
+  height: 100vh;
+  padding: 0 20px;
+
+  &__container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+      position: relative;
+
+      .block {
+        width: 0%;
+        background: #ffb510;
+        height: 100%;
+        position: absolute;
+        animation: titleBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin: 0;
+        animation: titleFadeIn 2s forwards;
+        animation-delay: 1.6s;
+        opacity: 0;
+      }
+    }
+
+    &__subtitle {
+      .block {
+        color: red;
+      }
+      h2 {
+        font-size: 2.5em;
+      }
+    }
+
+    &__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        border-radius: 50%;
+        border: 2px solid white;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@keyframes titleBlock {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes titleFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
