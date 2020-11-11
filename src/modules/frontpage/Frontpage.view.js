@@ -8,7 +8,6 @@ const Frontpage = () => {
   return (
     <div>
       <FrontpageHero />
-      <PersonalInformation />
     </div>
   )
 }

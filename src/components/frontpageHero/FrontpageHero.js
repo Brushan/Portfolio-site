@@ -9,16 +9,18 @@ const FrontpageHero = () => {
       <div className="hero__container">
         <div className="hero__container__title">
           <span className="block"></span>
-          <h1>Javascript Dev, Technical SEO & Web Analysis</h1>
+          <h1>
+            Hello,
+          </h1>
         </div>
-        <div className="hero__container__subtitle">
+        <div className="hero__container__name">
           <span className="block"></span>
-          <p>I build products with the user in mind.</p>
-        </div>
-        <div className="hero__container__image">
-            <img src={heroImage} alt=""/>
+          <h1>
+            <span>I am Tommy</span>
+          </h1>
         </div>
       </div>
+      <div className="hero__image"></div>
     </section>
   )
 }
