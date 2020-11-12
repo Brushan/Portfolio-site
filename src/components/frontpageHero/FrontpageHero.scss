@@ -1,0 +1,120 @@
+@import "../../styles/variables.scss";
+
+.hero {
+  display: flex;
+  align-items: center;
+  color: $white;
+  height: 100vh;
+  max-width: 70%;
+  margin: 0 auto;
+
+  @media (max-width: $breakpoint-sm) {
+    max-width: 85%;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    max-width: 50%;
+
+    &__title {
+      position: relative;
+      display: flex;
+
+      .block {
+        width: 0%;
+        background: $white;
+        height: 100%;
+        position: absolute;
+        animation: titleBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+      }
+
+      span {
+        color: $primary;
+      }
+
+      h1 {
+        font-size: 16vmin;
+        margin: 0;
+        animation: titleFadeIn 2s forwards;
+        animation-delay: 1.6s;
+        opacity: 0;
+        line-height: 1;
+      }
+    }
+
+    &__name {
+      position: relative;
+
+      .block {
+        width: 0%;
+        background: $primary;
+        height: 100%;
+        position: absolute;
+        animation: titleBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+        animation-delay: 1s;
+      }
+
+      span {
+        color: $primary;
+      }
+
+      h1 {
+        font-size: 16vmin;
+        margin: 0;
+        animation: titleFadeIn 2s forwards;
+        animation-delay: 2.6s;
+        opacity: 0;
+        line-height: 1;
+      }
+    }
+  }
+
+  &__image {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 35%;
+    background-image: url(../../media/images/TommyHero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (max-width: $breakpoint-lg) {
+      left: 20%;
+    }
+
+    @media (max-width: $breakpoint-md) {
+      left: 5%;
+    }
+
+    @media (max-width: $breakpoint-sm) {
+      left: -25%;
+    }
+  }
+}
+
+@keyframes titleBlock {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+
+@keyframes titleFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

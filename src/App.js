@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss'
-import Countdown from './components/countdown/Countdown';
+import Frontpage from './modules/frontpage/Frontpage.view';
 
 const App = () => {
   return (
     <div className="main">
-      
+      <Frontpage />
     </div>
   )
 }

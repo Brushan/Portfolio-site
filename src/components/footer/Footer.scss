@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  height: auto;
+}
+
+.footerWrapper {
+  height: auto;
+
+  &__contact {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+    &__link {
+      margin: 0 10px;
+      a {
+        &:hover {
+          svg {
+            fill: darken($primary, 10%);
+          }
+        }
+      }
+    }
+  }
+}
