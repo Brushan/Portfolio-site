@@ -1,5 +1,4 @@
 import React from 'react'
-import heroImage from '../../media/images/Tommy-blue.png'
 
 import './FrontpageHero.scss'
 

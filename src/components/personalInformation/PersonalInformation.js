@@ -4,9 +4,13 @@ import './PersonalInformation.scss';
 const personalInformation = () => {
   return (
     <section className="information">
-      <div className="information__container">
-        <h2>Hi, my name is Tommy.</h2>
-        <p>I am a javascript developer who enjoy building products with the user in mind. Not necessarily high-end UX/Design but rather SEO and the structural performance of sites and apps. </p>
+      <div className="information__text">
+        <h2>This is me</h2>
+        <p>I'm a javascript developer from Sweden with a background in SEO and Web analysis. I build digital products and enjoy creating experiences for users.
+        </p>
+        <p>
+        Duis mattis elementum ligula, et dictum dui suscipit non. Nam id nisl ipsum. Donec neque leo, consectetur sed nibh vitae, dictum facilisis felis. Integer malesuada lorem vel elit eleifend, ornare ultricies nulla semper. Suspendisse arcu purus, posuere eget laoreet pretium, pellentesque ac urna.
+        </p>
       </div>
     </section>
   )
