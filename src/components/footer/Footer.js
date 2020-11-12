@@ -1,5 +1,5 @@
 import React from 'react';
-import { GithubIcon } from '../../media/icons/icons';
+import { GithubIcon, LinkedInIcon } from '../../media/icons/icons';
 import './Footer.scss'
 
 const Footer = () => {
@@ -8,7 +8,10 @@ const Footer = () => {
       <div className="footerWrapper">
         <div className="footerWrapper__contact">
           <div className="footerWrapper__contact__link">
-            <a href="https://github.com/Brushan"><GithubIcon /></a>
+            <a href="https://github.com/Brushan" target="_blank" rel="noreferrer"><GithubIcon /></a>
+          </div>
+          <div className="footerWrapper__contact__link">
+            <a href="https://www.linkedin.com/in/tommy-berggren/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
           </div>
         </div>
       </div>
