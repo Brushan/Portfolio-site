@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../../components/footer/Footer';
 import FrontpageHero from '../../components/frontpageHero/FrontpageHero';
 import PersonalInformation from '../../components/personalInformation/PersonalInformation';
+import { Project } from '../../components/project/Project';
 import Skills from '../../components/skills/Skills';
 
 import './Frontpage.view.scss';
@@ -12,6 +13,9 @@ const Frontpage = () => {
       <FrontpageHero />
       <PersonalInformation />
       <Skills />
+      <section className="projects">
+        <Project />
+      </section>
       <Footer />
     </div>
   )
