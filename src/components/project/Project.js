@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.scss';
-import { GithubIcon, JsIcon } from '../../media/icons/icons';
+import { CssIcon, GithubIcon, HtmlIcon, JsIcon } from '../../media/icons/icons';
 import image from '../../media/images/Hangman.jpg'
 
 export const Project = () => {
@@ -18,20 +18,26 @@ export const Project = () => {
               <ul>
                 <li>
                   <div className="project__tech__icon">
-                  <JsIcon />
+                    <JsIcon />
                   </div>
                   <p>Javascript</p>
                 </li>
                 <li>
-                  HTML
+                  <div className="project__tech__icon">
+                    <HtmlIcon />
+                  </div>
+                  <p>HTML</p>
                 </li>
                 <li>
-                  CSS
+                  <div className="project__tech__icon">
+                    <CssIcon />
+                  </div>
+                  <p>CSS</p>
                 </li>
               </ul>
             </div>
             <div className="project__link">
-              <a href="https://github.com/Brushan/Hangman">
+              <a href="https://github.com/Brushan/Hangman" target="_blank" rel="noreferrer">
                 <GithubIcon />
                 To the code <span>&rarr;</span></a>
             </div>
