@@ -4,19 +4,10 @@ import './Skills.scss';
 
 const Skills = () => {
   return (
-    <section className="skills">
       <div className="skillsWrapper">
         <div className="skillsWrapper__card">
           <h3>Web Development</h3>
           <div className="skillsWrapper__card__techGroup">
-            <div className="tech">
-              <HtmlIcon />
-              <p>HTML 5</p>
-            </div>
-            <div className="tech">
-              <CssIcon />
-              <p>CSS 3</p>
-            </div>
             <div className="tech">
               <JsIcon />
               <p>Javascript</p>
@@ -32,6 +23,14 @@ const Skills = () => {
             <div className="tech">
               <TypescriptIcon />
               <p>Typescript</p>
+            </div>
+            <div className="tech">
+              <HtmlIcon />
+              <p>HTML 5</p>
+            </div>
+            <div className="tech">
+              <CssIcon />
+              <p>CSS 3</p>
             </div>
             <div className="tech">
               <SassIcon />
@@ -59,7 +58,6 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </section>
   )
 }
 
