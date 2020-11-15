@@ -1,1 +1,25 @@
 @import "../../styles/variables.scss";
+
+.about {
+  color: $white;
+
+  display: grid;
+  grid-template-columns:
+    1fr
+    calc(min(85ch, 90%))
+    1fr;
+
+  & > * {
+    grid-column: 2;
+  }
+}
+
+.skills {
+  color: $white;
+}
+
+.projects {
+  margin: 50px 0;
+  padding: 0 150px;
+  color: $white;
+}

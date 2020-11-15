@@ -11,9 +11,15 @@ const Frontpage = () => {
   return (
     <div>
       <FrontpageHero />
-      <PersonalInformation />
-      <Skills />
+      <section className="about">
+        <PersonalInformation />
+      </section>
+      <section className="skills">
+        <h2>Tech stack</h2>
+        <Skills />
+      </section>
       <section className="projects">
+        <h2>My projects</h2>
         <Project />
       </section>
       <Footer />

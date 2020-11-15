@@ -1,19 +1,1 @@
 @import "../../styles/variables.scss";
-
-.information {
-  color: $white;
-  padding: 0 50px;
-
-  display: grid;
-  grid-template-columns:
-    1fr
-    calc(min(85ch, 90%))
-    1fr;
-
-  & > * {
-    grid-column: 2;
-  }
-
-  &__text {
-  }
-}
