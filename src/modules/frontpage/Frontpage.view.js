@@ -18,10 +18,7 @@ const Frontpage = () => {
         <h2>Tech stack</h2>
         <Skills />
       </section>
-      <section className="projects">
-        <h2>My projects</h2>
         <Project />
-      </section>
       <Footer />
     </div>
   )
