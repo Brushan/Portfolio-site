@@ -6,11 +6,7 @@
   color: $white;
 
   @media (max-width: $breakpoint-lg) {
-    padding: 0 50px;
-  }
-
-  @media (max-width: $breakpoint-md) {
-    padding: 0 30px;
+    padding: 0 10px;
   }
 
   @media (max-width: $breakpoint-sm) {
@@ -31,6 +27,8 @@
   background-color: $white;
   border-radius: 10px 10px 0 0;
   margin: 5px;
+  display: flex;
+  flex-direction: column;
 
   h5 {
     color: $white;
@@ -45,14 +43,22 @@
     justify-content: center;
     img {
       margin: 10px 0;
-      width: 90%;
-      height: 90%;
+      width: auto;
+      height: auto;
+      max-width: 90%;
+      max-height: 200px;
+      position: relative;
     }
   }
 
   &__description {
+    @media (min-width: $breakpoint-md) {
+      height: 250px;
+    }
+
     h3 {
       padding: 0 10px;
+      font-size: 1.4em;
     }
 
     p {
