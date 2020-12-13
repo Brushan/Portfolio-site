@@ -9,12 +9,12 @@ const Project2 = () => {
   <div className="projectsWrapper">
     <a href="https://github.com/Brushan/Recipe-Site">
       <div className="project">
-        <div className="description">
+        <div className="poject__description">
           <h3>Recipe site</h3>
           <p>A web app built with the MERN-stack - <strong>MongoDB</strong>, <strong>Express</strong>, <strong>React</strong> and <strong>Nodejs</strong>. Search through a grid of recipes with the help of a filtering system, each recipe has structured data for better SEO performance.</p>
         </div>
-        <div className="languages">
-          <div className="languages__icon">
+        <div className="project__languages">
+          <div className="">
             <HtmlIcon />
             <p>HTML</p>
           </div>
