@@ -1,5 +1,4 @@
 import React from 'react';
-import './Project.scss';
 import { GithubIcon } from '../../media/icons/icons';
 import trashTag from '../../media/images/trashtagger.png'
 import tappyGif from '../../media/images/tappy.gif'
