@@ -1,63 +1,60 @@
-import React from 'react';
-import { GithubIcon } from '../../media/icons/icons';
-import trashTag from '../../media/images/trashtagger.png'
-import tappyGif from '../../media/images/tappy.gif'
-import recipeImage from '../../media/images/Recipes.jpg'
+import React from 'react'
+import { HtmlIcon, NodeIcon, ReactIcon, SassIcon } from '../../media/icons/icons';
+import './Project.scss';
 
-export const Project = () => {
+const Project = () => {
   return (
-  <section className="projects">
-    <h2>Some of my work</h2>
-    <div className="projectsWrapper">
+<section className="projects">
+  <h1>Projects</h1>
+  <p>I always strive to become better at my craft. I enjoy experimenting with different techonologies and put emphasis on user experience - Here are some projects I have been working on recently, more to be found on my <a href="https://github.com/Brushan">Github</a>.</p>
+  <div className="projectsWrapper">
+    <a href="https://github.com/Brushan/Recipe-Site">
       <div className="project">
-          <h5>Web Development</h5>
-          <div className="project__image">
-            <img src={recipeImage} alt="tappy"/>
-          </div>
-          <div className="project__description">
-            <h3>Recipe site</h3>
-            <p>A web app built with the MERN-stack - <strong>MongoDB</strong>, <strong>Express</strong>, <strong>React</strong> and <strong>Nodejs</strong>. Search through a grid of recipes with the help of a filtering system, each recipe has structured data for better SEO performance.</p>
-          </div>
-          <div className="project__link">
-            <a href="https://github.com/Brushan/Recipe-Site" target="_blank" rel="noreferrer">
-              <GithubIcon />
-              To the code <span>&rarr;</span></a>
-          </div>
-        </div>
-
-      <div className="project">
-        <h5>Mobile Development</h5>
-        <div className="project__image">
-          <img src={trashTag} alt="trashtagger"/>
-        </div>
         <div className="project__description">
-          <h3>TrashTagger</h3>
-          <p>A mobile app built in <strong>React Native</strong> using <strong>Firebase</strong> as database. The app is meant to be used as a tool in the fight for the environment and allow users to geo-tag littered areas in need of cleaning up.</p>
+          <h3>Recipes</h3>
+          <p>A web app built with the <strong>MERN-stack</strong>. Search through a grid of recipes with the help of a filtering system, each recipe has structured data for better SEO performance.</p>
         </div>
-        <div className="project__link">
-          <a href="https://github.com/Brushan/TrashTagger" target="_blank" rel="noreferrer">
-            <GithubIcon />
-            To the code <span>&rarr;</span></a>
+        <hr className="project__linebreak" />
+        <div className="project__tech">
+          <ReactIcon />
+          <SassIcon />
+          <NodeIcon />
         </div>
       </div>
+    </a>
 
+    <a href="https://github.com/Brushan/Recipe-Site">
       <div className="project">
-        <h5>Mobile Development</h5>
-        <div className="project__image">
-          <img src={tappyGif} alt="tappy"/>
+        <div className="project__description">
+          <h3>Trash Tagger</h3>
+          <p>A mobile app built in <strong>React Native</strong> meant to be used as a tool in the fight for the environment, it allow users to geo-tag littered areas in need of cleaning up.</p>
         </div>
+        <hr className="project__linebreak" />
+        <div className="project__tech">
+          <ReactIcon />
+          <SassIcon />
+          <NodeIcon />
+        </div>
+      </div>
+    </a>
+
+    <a href="https://github.com/Brushan/Recipe-Site">
+      <div className="project">
         <div className="project__description">
           <h3>Tappy</h3>
           <p>A mobile app built in <strong>React Native</strong> that allows users to gift "taps" which can be redeemed for beverages and pastries at different coffee shops, bars and restaurants.</p>
         </div>
-        <div className="project__link">
-          <a href="https://github.com/Brushan/TappyPublic" target="_blank" rel="noreferrer">
-            <GithubIcon />
-            To the code <span>&rarr;</span></a>
+        <hr className="project__linebreak" />
+        <div className="project__tech">
+          <ReactIcon />
+          <SassIcon />
+          <NodeIcon />
         </div>
       </div>
-
-    </div>
-    </section>     
+    </a>
+  </div>
+</section>
   )
 }
+
+export default Project
