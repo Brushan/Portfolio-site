@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.project {
+  &__description {
+  }
+
+  &__tools {
+    svg {
+      height: 25px;
+    }
+  }
+}

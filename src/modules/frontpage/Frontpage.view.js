@@ -3,6 +3,7 @@ import Footer from '../../components/footer/Footer';
 import FrontpageHero from '../../components/frontpageHero/FrontpageHero';
 import PersonalInformation from '../../components/personalInformation/PersonalInformation';
 import { Project } from '../../components/project/Project';
+import Project2 from '../../components/project2/Project2';
 import SkillList from '../../components/skillList/SkillList';
 
 import './Frontpage.view.scss';
@@ -18,7 +19,7 @@ const Frontpage = () => {
         <h2>Tech stack</h2>
         <SkillList />
       </section>
-        <Project />
+        <Project2 />
       <Footer />
     </div>
   )
