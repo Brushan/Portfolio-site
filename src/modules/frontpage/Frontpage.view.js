@@ -1,4 +1,5 @@
 import React from 'react';
+import Flash from '../../components/flash/Flash';
 import Footer from '../../components/footer/Footer';
 import FrontpageHero from '../../components/frontpageHero/FrontpageHero';
 import PersonalInformation from '../../components/personalInformation/PersonalInformation';

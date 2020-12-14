@@ -16,6 +16,15 @@
 
 .skills {
   color: $white;
+  padding: 10px;
+
+  @media (min-width: $breakpoint-lg) {
+    padding: 50px 150px;
+  }
+
+  @media (min-width: $breakpoint-md) {
+    padding: 50px 50px;
+  }
 }
 
 h1,

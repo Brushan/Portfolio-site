@@ -6,7 +6,7 @@ const Project = () => {
   return (
 <section className="projects">
   <h1>Projects</h1>
-  <p>I always strive to become better at my craft. I enjoy experimenting with different techonologies and put emphasis on user experience - Here are some projects I have been working on recently, more to be found on my <a href="https://github.com/Brushan">Github</a>.</p>
+  <p>I always strive to become better at my craft. I enjoy experimenting with different techonologies and put emphasis on user experience - Below are some projects I have been working on recently, more to be found on my <a href="https://github.com/Brushan">Github</a>.</p>
   <div className="projectsWrapper">
     <a href="https://github.com/Brushan/Recipe-Site">
       <div className="project">

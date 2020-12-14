@@ -10,8 +10,15 @@ const SkillList = () => {
   <div className="skillsWrapper__card">
     <h3>Web Development</h3>
     <div className="skillsWrapper__card__techGroup">
-      <Skill delay="0.3" skillId="1" Icon={JsIcon} title="Javascript"/>
-      <Skill delay="0.3" skillId="2" Icon={HtmlIcon} title="Html"/>
+      <Skill Icon={JsIcon} title="Javascript"/>
+      <Skill Icon={HtmlIcon} title="Html"/>
+    </div>
+  </div>
+  <div className="skillsWrapper__card">
+    <h3>Tools & Frameworks</h3>
+    <div className="skillsWrapper__card__techGroup">
+      <Skill Icon={JsIcon} title="Javascript"/>
+      <Skill Icon={HtmlIcon} title="Html"/>
     </div>
   </div>
 </div>
