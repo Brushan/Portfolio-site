@@ -6,20 +6,24 @@
   color: $white;
 
   @media (min-width: $breakpoint-md) {
-    padding: 50px 50px;
+    padding: 70px 50px;
+    clip-path: polygon(0 5%, 100% 0%, 100% 94%, 0 100%);
   }
 
   @media (min-width: $breakpoint-xl) {
-    padding: 50px 150px;
+    padding: 70px 150px;
   }
 
   &__intro {
-    h1 {
-      max-width: 800px;
+    h2 {
+      span {
+        padding-bottom: 1px;
+        border-bottom: 4px solid $white;
+      }
     }
 
     p {
-      max-width: 800px;
+      max-width: 1000px;
     }
   }
 }
@@ -36,7 +40,8 @@
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
   justify-content: center;
-  column-gap: 10px;
+  column-gap: 20px;
+  row-gap: 10px;
 
   a {
     margin: 0 auto;
