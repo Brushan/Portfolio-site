@@ -14,7 +14,7 @@ const Project = () => {
       <div className="project">
         <div className="project__description">
           <h3>Recipes</h3>
-          <p>A web app built with the <strong>MERN-stack</strong>. Search through a grid of recipes with the help of a filtering system, each recipe use structured data for better SEO performance.</p>
+          <p>A recipe web app built with React, Sass, Node.js using MongoDB and AWS as database solutions. The app is using libraries such as react-helmet to increase SEO perfomance.</p>
         </div>
         <hr className="project__linebreak" />
         <div className="project__tech">
