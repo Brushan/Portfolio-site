@@ -5,18 +5,28 @@
   padding: 10px;
   color: $white;
 
+  @media (min-width: 746px) {
+    padding: 50px 50px;
+  }
+
   @media (min-width: $breakpoint-lg) {
     padding: 50px 150px;
   }
 
-  @media (min-width: $breakpoint-md) {
-    padding: 50px 50px;
+  &__intro {
+    h1 {
+      max-width: 800px;
+    }
+
+    p {
+      max-width: 800px;
+    }
   }
 }
 
 .projectsWrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 
   /*   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -50,6 +60,7 @@
 
   &__linebreak {
     background-color: $black;
+    opacity: 0.5;
     height: 1px;
     width: 100%;
     margin: 10px auto;

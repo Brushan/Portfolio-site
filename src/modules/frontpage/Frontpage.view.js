@@ -16,7 +16,7 @@ const Frontpage = () => {
         <PersonalInformation />
       </section>
       <section className="skills">
-        <h2>Tech stack</h2>
+        <h2>Tech I work with</h2>
         <SkillList />
       </section>
         <Project />

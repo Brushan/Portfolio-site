@@ -1,18 +1,20 @@
 import React from 'react'
-import { HtmlIcon, NodeIcon, ReactIcon, SassIcon } from '../../media/icons/icons';
+import { FirebaseIcon, HtmlIcon, NodeIcon, ReactIcon, ReduxIcon, SassIcon } from '../../media/icons/icons';
 import './Project.scss';
 
 const Project = () => {
   return (
 <section className="projects">
-  <h1>Projects</h1>
+  <div className="projects__intro">
+  <h2>What I am up to</h2>
   <p>I always strive to become better at my craft. I enjoy experimenting with different techonologies and put emphasis on user experience - Below are some projects I have been working on recently, more to be found on my <a href="https://github.com/Brushan">Github</a>.</p>
+  </div>
   <div className="projectsWrapper">
     <a href="https://github.com/Brushan/Recipe-Site">
       <div className="project">
         <div className="project__description">
           <h3>Recipes</h3>
-          <p>A web app built with the <strong>MERN-stack</strong>. Search through a grid of recipes with the help of a filtering system, each recipe has structured data for better SEO performance.</p>
+          <p>A web app built with the <strong>MERN-stack</strong>. Search through a grid of recipes with the help of a filtering system, each recipe use structured data for better SEO performance.</p>
         </div>
         <hr className="project__linebreak" />
         <div className="project__tech">
@@ -32,8 +34,8 @@ const Project = () => {
         <hr className="project__linebreak" />
         <div className="project__tech">
           <ReactIcon />
-          <SassIcon />
-          <NodeIcon />
+          <ReduxIcon />
+          <FirebaseIcon />
         </div>
       </div>
     </a>
@@ -47,8 +49,8 @@ const Project = () => {
         <hr className="project__linebreak" />
         <div className="project__tech">
           <ReactIcon />
-          <SassIcon />
-          <NodeIcon />
+          <ReduxIcon />
+          <FirebaseIcon />
         </div>
       </div>
     </a>

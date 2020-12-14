@@ -3,21 +3,34 @@
 .skillsWrapper {
   display: flex;
   justify-content: center;
+
+  @media (max-width: $breakpoint-md) {
+    flex-direction: column;
+  }
+
   &__card {
-    background-color: $white;
-    padding: 0 20px 20px 20px;
-    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
     border-radius: 5px;
-    color: $black;
+    color: $white;
 
     h3 {
       margin-bottom: 10px;
+      text-align: center;
     }
 
     &__techGroup {
       display: flex;
       max-width: 360px;
       flex-wrap: wrap;
+      justify-content: center;
+
+      @media (max-width: 676px) {
+        justify-content: center;
+      }
     }
   }
 }
