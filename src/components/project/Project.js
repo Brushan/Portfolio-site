@@ -1,5 +1,5 @@
 import React from 'react'
-import { FirebaseIcon, HtmlIcon, NodeIcon, ReactIcon, ReduxIcon, SassIcon } from '../../media/icons/icons';
+import { FirebaseIcon, NodeIcon, ReactIcon, ReduxIcon, SassIcon } from '../../media/icons/icons';
 import './Project.scss';
 
 const Project = () => {
@@ -7,7 +7,7 @@ const Project = () => {
 <section className="projects">
   <div className="projects__intro">
   <h2><span>A few projects</span></h2>
-  <p>I always strive to become better at my craft. I enjoy experimenting with different techonologies and put emphasis on user experience - Below are some projects I have been working on recently, more to be found on my <a href="https://github.com/Brushan">Github</a> of doom.</p>
+  <p>I always strive to become better at my craft, more than once catching myself looking at the clock at 2 a.m pondering whether I "should just get this one small thing done before bed" or not. Below are some projects I have been working on recently, more can be found on my <a href="https://github.com/Brushan">Github</a> of doom.</p>
   </div>
   <div className="projectsWrapper">
     <a href="https://github.com/Brushan/Recipe-Site">

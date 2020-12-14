@@ -16,7 +16,7 @@ const Frontpage = () => {
       </section>
       <section className="skills">
         <h2><span>Tech I work with</span></h2>
-        <p>The Javascript frontend ecosystem has really grown on me and I spend most of my days working with these tools and languages, always on the hunt to better my knowledge.</p>
+        <p>The Javascript frontend ecosystem has really grown on me and I spend most of my days working with these tools and languages, consistently on the hunt to better my knowledge.</p>
         <SkillList />
       </section>
         <Project />

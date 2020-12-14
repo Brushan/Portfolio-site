@@ -25,6 +25,17 @@
     p {
       max-width: 1000px;
     }
+
+    a {
+      text-decoration: none;
+      color: black;
+      border-bottom: solid 2px black;
+
+      &:hover {
+        color: lighten(black, 20%);
+        border-bottom: solid 2px lighten(black, 20%);
+      }
+    }
   }
 }
 
