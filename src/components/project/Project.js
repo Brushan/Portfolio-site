@@ -10,7 +10,7 @@ const Project = () => {
   <p>I always strive to become better at my craft, more than once catching myself looking at the clock at 2 a.m pondering whether I "should just get this one small thing done before bed" or not. Below are some projects I have been working on recently, more can be found on my <a href="https://github.com/Brushan">Github</a> of doom.</p>
   </div>
   <div className="projectsWrapper">
-    <a href="https://github.com/Brushan/Recipe-Site">
+    <a href="https://github.com/Brushan/Recipe-Site" target="_blank" rel="noopener noreferrer">
       <div className="project">
         <div className="project__description">
           <h3>Recipes</h3>
@@ -25,7 +25,7 @@ const Project = () => {
       </div>
     </a>
 
-    <a href="https://github.com/Brushan/Recipe-Site">
+    <a href="https://github.com/Brushan/Recipe-Site" target="_blank" rel="noopener noreferrer">
       <div className="project">
         <div className="project__description">
           <h3>Trash Tagger</h3>
@@ -40,7 +40,7 @@ const Project = () => {
       </div>
     </a>
 
-    <a href="https://github.com/Brushan/Recipe-Site">
+    <a href="https://github.com/Brushan/Recipe-Site" target="_blank" rel="noopener noreferrer">
       <div className="project">
         <div className="project__description">
           <h3>Tappy</h3>
