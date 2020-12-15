@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Zilla+Slab:wght@400;700&display=swap");
+
 /* Responive Breakpoints */
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
@@ -9,3 +11,7 @@ $white: #fff;
 $black: rgb(66, 66, 66);
 $primary: #682ae9;
 $secondary: #9c9200;
+
+/* Fonts */
+$font-dm-mono: "DM Mono", monospace;
+$font-zilla-slab: "Zilla Slab", serif;

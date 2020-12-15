@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+
+.flash {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tommySvg {
+  height: 500px;
+  width: auto;
+}
+
+.letterLine {
+  transition: stroke-dashoffset 2s ease-in-out;
+  stroke-dashoffset: 0;
+  // animation: dashes 5s linear;
+}
+
+.lineSvg {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes dashes {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}

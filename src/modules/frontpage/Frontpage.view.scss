@@ -12,8 +12,59 @@
   & > * {
     grid-column: 2;
   }
+
+  background-image: linear-gradient(90deg, #1a16ff, #7b16ff);
+  padding: 10px;
+
+  @media (min-width: $breakpoint-md) {
+    padding: 50px 50px;
+    clip-path: polygon(0 8%, 100% 0%, 100% 91%, 0 100%);
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    padding: 50px 150px;
+  }
 }
 
 .skills {
   color: $white;
+  padding: 10px;
+
+  @media (max-width: $breakpoint-sm) {
+    h2 {
+      text-align: center;
+    }
+  }
+
+  @media (min-width: $breakpoint-md) {
+    padding: 50px 50px;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    padding: 50px 150px;
+  }
+
+  p {
+    max-width: 1000px;
+  }
+
+  h2 {
+    span {
+      padding-bottom: 1px;
+      border-bottom: solid 4px $white;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-zilla-slab;
+}
+
+p {
+  font-family: $font-dm-mono;
 }
