@@ -1,5 +1,4 @@
 import React from 'react';
-import './PersonalInformation.scss';
 
 const personalInformation = () => {
   return (
